@@ -13,9 +13,12 @@ body {
  }
 
 .boxed {
-  border: 1px solid rgb(128, 128, 128) ;
-    width: 150px;
-    align-content: center
+  border: 1px solid rgb(128, 128, 128);
+    width: 190px;
+    height: 190px;
+    align-content: center;
+    text-align: center;
+    background-color: #f2d6a2;
 }
 
 .header {
@@ -30,5 +33,11 @@ body {
 #text {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #ff0000;
+    color: #a2a2a2;
 }
+
+#head {
+    font-weight: 700;
+    color: #727272;
+}
+
