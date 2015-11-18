@@ -13,11 +13,18 @@
           document.getElementById('usr').innerHTML = 'Hello, ' + username;
       }
 </script>
+<script>
+    function logout() {
+        console.log("User made logout request...")
+        window.location.replace("index.html");
+    }
+</script>
 
 </head>
 <body>
     <header>
     </header>
     <h1 id="usr">Not logged in.</h1><script>changeText()</script>
+    <button onClick="logout()">Logout</button>
 </body>
 </html>
