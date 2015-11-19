@@ -10,7 +10,7 @@ p {
 
 body {
   text-align: center;
-    background: #484848;
+    background: white;
     
  }
 
@@ -40,11 +40,11 @@ body {
 
 #head {
     font-weight: 700;
-    color: #727272;
+    color: #484848;
 }
 
 html {
-    color: white;
+    color: #484848;
 }
 
 
@@ -69,12 +69,12 @@ div, :before {
 
 A:link {
 text-decoration: none;
-color: white;
+color: #484848;
 }
 
 A:visited {
 text-decoration: none;
-color: white;
+color: #484848;
 }
 
 .overlay{
