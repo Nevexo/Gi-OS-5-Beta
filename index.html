@@ -8,7 +8,7 @@
         function login() {
         var textbox = document.getElementById('name');
           console.log("Send to server: " + textbox.value  )
-          var str = "client.html?name=";
+          var str = "welcome.html?name=";
           var res = str.concat(textbox.value);
           console.log("Now requesting: " + res)
           window.location.replace(res);

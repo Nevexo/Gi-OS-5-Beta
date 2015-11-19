@@ -1,30 +1,28 @@
 <html>
 <head>
+    <title>Gi-OS 5</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <link href="css.css" rel='stylesheet' type='text/css'>
     <script src="js.js" type='text/javascript'></script>
     <script>
-      function getURLParameter(name) {
+    function getURLParameter(name) {
         return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
       }
       username = getURLParameter('name');
       console.log("Name: " + username)
       function changeText(){
-          document.getElementById('usr').innerHTML = 'Hello, ' + username;
+          document.getElementById('usr-').innerHTML = username;
       }
-</script>
-<script>
-    function logout() {
-        console.log("User made logout request...")
-        window.location.replace("index.html");
-    }
-</script>
-
+        function test(){
+            console.log("Test");
+        }
+    </script>
 </head>
 <body>
     <header>
+        <h1 id="usr-">Hello<script>changeText()</script>    
+            <img src="/Resources/user_icon.png" class="usericon" align="right" width=30px height=30px onClick="test"></h1>
     </header>
-    <h1 id="usr">Not logged in.</h1><script>changeText()</script>
-    <button onClick="logout()">Logout</button>
+    <p><a href="welcome.html?name=Cameron">Do it again</a></p>
 </body>
 </html>
