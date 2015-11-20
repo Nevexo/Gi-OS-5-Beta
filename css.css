@@ -95,3 +95,15 @@ color: #484848;
   z-index: 10;
   background-color: rgba(0,0,0,0.5); /*dim the background*/
 }
+.searchbar{
+ width:450px;
+    Position: relative;
+    bottom : -500;
+    background: url(50%-transparent-white.png);
+    background: rgba(255,255,255,0.5);
+    border:0;
+    color:white;
+    font-weight:100;
+	
+}
+}
