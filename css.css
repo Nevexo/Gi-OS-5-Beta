@@ -121,6 +121,7 @@ height:50px;
 }
 .loginstuff{
 position:relative;
-bottom:-100px;	
+bottom:-100px;
+right:0px;
 }
 }
