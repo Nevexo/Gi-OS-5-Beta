@@ -98,7 +98,8 @@ color: #484848;
 .searchbar{
  width:450px;
     Position: relative;
-    bottom : -500;
+    bottom : -2.5;
+    
     background: url(50%-transparent-white.png);
     background: rgba(255,255,255,0.5);
     border:0;
