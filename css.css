@@ -75,7 +75,7 @@ div, :before {
 .usericon {
     border-radius: 50%;
     position:relative;
-    top:0px;
+    top:-10px;
 }
 
 A:link {
@@ -108,6 +108,7 @@ color: #484848;
     border:0;
     color:#7f7f7f;
     font-weight:100;
+    font:10px;
 	
 }
 }
