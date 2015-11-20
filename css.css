@@ -6,7 +6,7 @@ h1, h2, h3 {
 p2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #cccccc
+    color: #7f7f7f
     background: url(50%-transparent-white.png);
 }
 p {
@@ -104,7 +104,7 @@ color: #484848;
     background: url(50%-transparent-white.png);
     background: rgba(255,255,255,0.5);
     border:0;
-    color:#cccccc;
+    color:#7f7f7f;
     font-weight:100;
 	
 }
