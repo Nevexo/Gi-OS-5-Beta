@@ -98,7 +98,7 @@ color: #484848;
   background-color: rgba(0,0,0,0.5); /*dim the background*/
 }
 .searchbar{
- width:600px;
+ width:200px;
  height:30px;
     Position: relative;
     bottom : -2.5px;
@@ -136,7 +136,7 @@ right:0px;
 /*----- Menu Outline -----*/
 .menu-wrap {
     width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    
     background:#;
 }
  
