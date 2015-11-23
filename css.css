@@ -150,6 +150,7 @@ right:0px;
     list-style:none;
     font-family:'arial';
   width:190px;
+  text-decoration:none;
 }
  
 .menu a {
@@ -162,6 +163,7 @@ right:0px;
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#969696;
+    text-decoration:none;
 }
  
 .menu .arrow {
@@ -175,6 +177,7 @@ right:0px;
     display:inline-block;
     position:relative;
     font-size:19px;
+    text-decoration:none;
 }
  
 .menu > ul > li > a {
@@ -204,6 +207,7 @@ right:0px;
     transition:opacity linear 0.15s;
      rgba(0,0,0,0.2);
     background:#;
+    text-decoration:none;
 }
  
 .sub-menu li {
@@ -214,8 +218,10 @@ right:0px;
 .sub-menu li a {
     padding:10px 30px;
     display:block;
+    text-decoration:none;
 }
  
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#ffffff;
+    text-decoration:none;
 }
