@@ -154,6 +154,7 @@ right:0px;
 .menu a {
     transition:all linear 0.15s;
     color:#969696;
+    text-decoration:none;
   
 }
  
